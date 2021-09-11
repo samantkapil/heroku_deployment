@@ -48,5 +48,7 @@ def blog():
 
 @app.route('/gallary')    
 def gallery():
-    return render_template('gallary.html')      
+    return render_template('gallary.html')  
+
+if __name__ = '__main__'
 app.run(debug=True)
