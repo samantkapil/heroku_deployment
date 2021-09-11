@@ -50,5 +50,5 @@ def blog():
 def gallery():
     return render_template('gallary.html')  
 
-if __name__ == '__main__'
+if __name__ == '__main__':    
     app.run(debug=True)
